@@ -636,8 +636,8 @@ my_plot = sns.catplot(
 
 
 By looking at the results of this plot, we can make the following affirmations about having cardiovascular diseases:
-- It doesn't seem to like Physical activity (active), Alcohol intake (alco) and Smoking (smoke) affect the presence of cardiovascular diseases because it seems like we have almost the same ratios on those variables for people having cardiovascular diseases and people not having them.
-- On the flip side, it looks like Cholesterol (cholesterol), Glucose (gluc) and being Overweight (overweight) affect the presence of cardiovascular diseases because between the ratios on those variables for people having cardiovascular diseases and people not having them, even with the eye test we can see a clear difference.
+- It doesn't seem like Physical activity (active), Alcohol intake (alco), and Smoking (smoke) affect the presence of cardiovascular diseases because it seems like we have almost the same ratios on those variables for people having cardiovascular diseases and people not having them.
+- On the flip side, it looks like Cholesterol (cholesterol), Glucose (gluc), and being Overweight (overweight) affect the presence of cardiovascular diseases because between the ratios on those variables for people having cardiovascular diseases and people not having them, even with the eye test we can see a clear difference.
 
 ## Clean the data. Filter out the following patient segments that represent incorrect data.
 
@@ -1129,10 +1129,10 @@ sns.heatmap(
 
 
 By looking at the results of this plot, we can make the following affirmations about having cardiovascular diseases:
-- Diastolic blood pressure (ap_lo) is the variable which influences the most the probability of someone having cardiovascular disease with the highest correlation of 0.3. 
-- Age (age), Weight (weigth) and Cholesterol (cholesterol) are the following variables with the most infuluence on having cardiovascular diseases with a correlation of 0.2.
-- Systolic blood pressure (ap_hi), Glucose (gluc) and Being Overweight (overweight) are the least variables with the influence on having cardiovascular diseases with a correlation of 0.1.
-- Gender (sex), Height (height), Smoking (smoke), Alcohol intake (alco) and Physical activity (active) don't have influence on having cardiovascular diseases with a correlation of around 0.
+- Diastolic blood pressure (ap_lo) is the variable that influences the most the probability of someone having cardiovascular disease with the highest correlation of 0.3. 
+- Age (age), Weight (weight), and Cholesterol (cholesterol) are the following variables with the most influence on having cardiovascular diseases with a correlation of 0.2.
+- Systolic blood pressure (ap_hi), Glucose (gluc), and Being Overweight (overweight) are the least variables with the influence on having cardiovascular diseases with a correlation of 0.1.
+- Gender (sex), Height (height), Smoking (smoke), Alcohol intake (alco), and Physical activity (active) don't have an influence on having cardiovascular diseases with a correlation of around 0.
 
-Some interesting findings about those results are that being physically active doesn't matter if your weight it too high. Doing physical activity should be done towards weight loss if you're aiming to reduce the chances of having cardiovascular diseases.
-Added to that, we learn that being heavy is a more important factor than being overweight. Those are 2 differents things because being overweight is relative to your weight compared to your height while on the other hand, being heavy just means having a high weight.
+Some interesting findings about those results are that being physically active doesn't matter if your weight is too high. Doing physical activity should be done towards weight loss if you're aiming to reduce the chances of having cardiovascular diseases.
+Added to that, we learn that being heavy is a more important factor than being overweight. Those are 2 different things because being overweight is relative to your weight compared to your height while on the other hand, being heavy just means having a high weight.
