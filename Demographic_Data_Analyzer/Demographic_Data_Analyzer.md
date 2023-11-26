@@ -287,7 +287,7 @@ lower_education_rich
 
 
 
-That was to be expected but overall, people with advanced education usually earn higher salaries than people without it (46.5% > 17.4%). This can be explained by the fact that, even if the world is going towards a skill based approach towards hiring, diplomas are still a bargaining point to demand a higher pay.
+That was to be expected but overall, people with advanced education usually earn higher salaries than people without it (46.5% > 17.4%). This can be explained by the fact that, even if the world is going towards a skill-based approach towards hiring, diplomas are still a bargaining point to demand higher pay.
 
 ## What is the minimum number of hours a person works per week?
 
@@ -382,7 +382,7 @@ country_percents
 
 
 
-Here is the highest earning country of our dataset:
+Here is the highest-earning country of our dataset:
 
 
 ```python
@@ -397,7 +397,7 @@ highest_earning_country
 
 
 
-And here is the percentage of worker earning more than 50K in this country:
+And here is the percentage of workers earning more than 50K in this country:
 
 
 ```python
