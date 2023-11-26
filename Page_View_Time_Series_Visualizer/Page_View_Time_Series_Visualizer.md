@@ -512,7 +512,7 @@ axes.set_ylabel("Average Page Views")
     
 
 
-This bar plot shows us that the average page views for the freeCodeCamp website is higher at the end of the year. This could be explained by the job market. People looking to get a new job usually get a new one during January or February, at the start of the year. In order to prepare for that, it makes sense that they would try to improve their resumes by getting more skills, thus coming on freeCodeCamp to increase their chances of landing a new job.
+This bar plot shows us that the average page views for the freeCodeCamp website are higher at the end of the year. This could be explained by the job market. People looking to get a new job usually get a new one during January or February, at the start of the year. In order to prepare for that, it makes sense that they would try to improve their resumes by getting more skills, thus coming on freeCodeCamp to increase their chances of landing a new job.
 
 ## Create a  `draw_box_plot`  function that uses Seaborn to draw two adjacent box plots. These box plots should show how the values are distributed within a given year or month and how it compares over time. The title of the first chart should be  `Year-wise Box Plot (Trend)`  and the title of the second chart should be  `Month-wise Box Plot (Seasonality)`. Make sure the month labels on bottom start at  `Jan`  and the x and y axis are labeled correctly. The boilerplate includes commands to prepare the data.
 First, we need to prepare the data.
@@ -624,4 +624,4 @@ axes[1].set_ylabel("Page Views")
 
 
 These box plots pretty much confirm the hypothesis given by looking at the 2 previous plots. Looking at the Year-wise Box Plot, we can see that the overall Page Views are increasing as the years pass. 
-Looking at the Month-Wise Box Plot, we can see that the number of Page views are higher at the end of the year, with higher peaks.
+Looking at the Month-Wise Box Plot, we can see that the number of Page views is higher at the end of the year, with higher peaks.
